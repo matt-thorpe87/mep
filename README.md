@@ -1,22 +1,15 @@
-Australian Government Design System - Starter
+MEP Website V1.0
 ==========================
 
-> Get started with full page templates using the Australian Government Design System.
+> Based on the Australian Government Design System.
 
-| Production [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/master.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/master)          | Staging [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/develop.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/develop)                     |
-|-----------------------------|--------------------------------|
-| https://design-system-starter.apps.b.cld.gov.au/ | https://ds-starter.apps.y.cld.gov.au/ |
-|  | username:`ds`   password:`ds` |
 
 ## Contents
 
-
-* [Templates](#templates)
 * [Development environment](#development-environment)
 * [Get started](#get-started)
 * [How it works](#how-it-works)
 * [Prerequisites](#prerequisites)
-* [Contributing](#contributing)
 * [License](#license)
 
 
@@ -111,22 +104,6 @@ The `docs` folder in the contains all the files required to publish a website. T
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-## Contributing
-
-To contribute to the Australian Government Design System Starter Pack:
-1. Fork the project & clone it locally.
-1. Create a new branch for the work that is going to be completed.
-1. Complete the work and test it to the best of your abilities following the [guidelines here](https://github.com/govau/uikit#checklist-and-browser-support).
-1. Once the work is completed, write a good commit message.
-1. Push your work to GitHub and create a new pull request.
-1. Respond to any code review feedback.
-
-
-**[⬆ back to top](#contents)**
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## License
