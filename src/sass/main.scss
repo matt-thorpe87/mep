@@ -1,12 +1,13 @@
 // Dark theme overrides
-// $AU-colordark-foreground-text:   #ffffff;
-// $AU-colordark-foreground-action: #f9f9f9;
-// $AU-colordark-foreground-focus:  #13e241;
-// $AU-colordark-background:        #134169;
+$AU-colordark-foreground-text: #ffffff;
+$AU-colordark-foreground-action: #f9f9f9;
+$AU-colordark-foreground-focus: #13e241;
+$AU-colordark-background: #270E52;
 
 // Light theme overrides
-// $AU-color-foreground-action: #134169;
-// $AU-color-foreground-focus:  #0C8927;
+$AU-color-foreground-action: #B20580;
+$AU-color-foreground-focus:  #0C8927;
+
 
 //Main nav, set project specific breakpoint
 $AU-main-nav-breakpoint: sm;
@@ -14,11 +15,17 @@ $AU-main-nav-breakpoint: sm;
 // UI-Kit
 @import './_auds.scss';
 
-
 // Reset the body
 body {
 	padding: 0;
 	margin: 0;
+
+	h1 > i.fas, 
+	h1 > i.fal,
+	h1 > i.far {
+		font-style: normal;
+	}
+	
 }
 
 
@@ -34,6 +41,19 @@ main > .banner {
 		@include AU-space( padding, 4unit 0 );
 	}
 }
+
+.au-body.au-body--alt.banner.mep1 {
+
+	color: #FFFFFF;
+	background: none;
+	background-color: transparent;
+	background-image: url('/assets/img/mep-banner-1.jpg'); 
+	background-size: cover; 
+	background-position: left center; 
+	min-height: 13em;
+
+}
+
 
 
 // Slight grid changes for container fluid
@@ -92,13 +112,31 @@ form {
 }
 
 
-.au-header .au-search {
+.au-header {
 
-	width: 100%;
-	@include AU-media( xs ) {
-		width: 75%;
-	}
-	@include AU-media( sm ) {
+	.au-search {
 		width: 100%;
+		@include AU-media( xs ) {
+			width: 75%;
+		}
+		@include AU-media( sm ) {
+			width: 100%;
+		}
+	}
+
+}
+
+.au-header__brand {
+	@include AU-media( sm ) {
+		.au-header__brand-image + .au-header__text {
+			@include AU-space( margin-left, 90px );
+		}
+	}
+}
+
+
+.au-card {
+	.au-card__inner {
+		@include AU-space( padding, 2.5unit);
 	}
 }
