@@ -1693,13 +1693,13 @@ a.au-tag.au-tag--dark::-moz-focus-inner { border: 0; }
 
 body { padding: 0; margin: 0; }
 
-body h1 > i.fas, body h1 > i.fal, body h1 > i.far { font-style: normal; }
+body i.fas, body i.fal, body i.far { font-style: normal; }
 
 main > .au-body { padding: 32px 0; padding: 2rem 0; }
 
 @media (min-width: 768px) { main > .banner { padding: 64px 0; padding: 4rem 0; } }
 
-.au-body.au-body--alt.banner.mep1 { color: #FFFFFF; background: none; background-color: transparent; background-image: url("/assets/img/mep-banner-1.jpg"); background-size: cover; background-position: left center; min-height: 13em; }
+.au-body.au-body--alt.banner.mep1 { color: #FFFFFF; background: none; background-color: transparent; background-image: url("../assets/img/mep-banner-1.jpg"); background-size: cover; background-position: left center; min-height: 13em; }
 
 .au-grid .container-fluid { max-width: 1280px; max-width: 80rem; }
 
