@@ -1,0 +1,16 @@
+{
+"companyName": "CSDS",
+"productName": "Maternity_Breech",
+"productVersion": "0.01",
+"dataUrl": "MEP_Breech_WebGL.data.unityweb",
+"wasmCodeUrl": "MEP_Breech_WebGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "MEP_Breech_WebGL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.0f1"
+}
