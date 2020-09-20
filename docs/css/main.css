@@ -1695,11 +1695,17 @@ body { padding: 0; margin: 0; }
 
 body i.fas, body i.fal, body i.far { font-style: normal; }
 
+body i.far.fa-clipboard-list-check { width: 16px; }
+
 main > .au-body { padding: 32px 0; padding: 2rem 0; }
 
 @media (min-width: 768px) { main > .banner { padding: 64px 0; padding: 4rem 0; } }
 
 .au-body.au-body--alt.banner.mep1 { color: #FFFFFF; background: none; background-color: transparent; background-image: url("../assets/img/mep-banner-1.jpg"); background-size: cover; background-position: left center; min-height: 13em; }
+
+.au-callout p { margin-bottom: 16px; margin-bottom: 1rem; }
+
+.au-callout p:last-of-type { margin-bottom: 0; }
 
 .au-grid .container-fluid { max-width: 1280px; max-width: 80rem; }
 
@@ -1734,5 +1740,9 @@ form { margin-top: 32px; margin-top: 2rem; }
 @media (min-width: 768px) { .au-header__brand .au-header__brand-image + .au-header__text { margin-left: 90px; } }
 
 .au-card .au-card__inner { padding: 40px; padding: 2.5rem; }
+
+.img-left-sidebar { width: 100%; display: block; margin: 0px auto; }
+
+@media (min-width: 768px) { .img-left-sidebar { width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

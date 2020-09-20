@@ -25,6 +25,11 @@ body {
 	i.far {
 		font-style: normal;
 	}
+
+	i.far.fa-clipboard-list-check {
+		width: 16px;
+	}
+
 	
 }
 
@@ -55,6 +60,15 @@ main > .banner {
 
 }
 
+.au-callout {
+	p {
+		@include AU-space(margin-bottom, 1unit);
+
+		&:last-of-type {
+			@include AU-space(margin-bottom, 0);
+		}
+	}
+}
 
 
 // Slight grid changes for container fluid
@@ -139,5 +153,15 @@ form {
 .au-card {
 	.au-card__inner {
 		@include AU-space( padding, 2.5unit);
+	}
+}
+
+.img-left-sidebar {
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+
+	@include AU-media( sm ) {
+		width: 90%;	
 	}
 }
