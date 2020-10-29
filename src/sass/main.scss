@@ -28,9 +28,39 @@ body {
 
 	i.far.fa-clipboard-list-check {
 		width: 16px;
-	}
+	}	
+}
 
-	
+.health-video__preview {
+	max-width: 760px;
+	position: relative;
+}
+
+
+.health-video__preview__length--small {
+	right: 0;
+	bottom: 6px;
+	display: inline-block;
+	padding: .5rem;
+	font-size: .85rem;
+	background-color: #000000;
+	color: #FFFFFF;
+	opacity: 0.75;
+	vertical-align: top;
+	position: absolute;
+}
+
+.svg-inline--fa {
+	display: inline-block;
+}
+
+.svg-inline--fa.fa-fw svg {
+	width: 1.25em;
+	font-size: inherit;
+	height: 1em;
+	overflow: visible;
+	vertical-align: -.125em;
+	fill: currentColor;
 }
 
 
