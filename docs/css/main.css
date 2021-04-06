@@ -1697,6 +1697,8 @@ body i.fas, body i.fal, body i.far { font-style: normal; }
 
 body i.far.fa-clipboard-list-check { width: 16px; }
 
+p.no-margin { margin-bottom: 0; }
+
 .health-video__preview { max-width: 760px; position: relative; }
 
 p:first-of-type { margin-top: 0.5em; }
@@ -1715,13 +1717,41 @@ p:first-of-type { margin-top: 0.5em; }
 
 main > .au-body { padding: 32px 0; padding: 2rem 0; }
 
+.au-body h2 { margin-top: 0; }
+
 @media (min-width: 768px) { main > .banner { padding: 64px 0; padding: 4rem 0; } }
 
 .au-header.idm2021 { background-color: #B20580; padding: 0px 0px; padding: 0rem 0rem; margin: 0px 0px; margin: 0rem 0rem; }
 
+main.idm2021 > .au-body--alt { padding: 64px 0; padding: 4rem 0; }
+
 .au-body.au-body--alt.banner.mep1 { color: #FFFFFF; background: none; background-color: transparent; background-image: url("../assets/img/mep-banner-1.jpg"); background-size: cover; background-position: left center; min-height: 13em; }
 
-.au-body.au-body.au-body--alt.banner.idm-2021 { background-color: #EFEFEF; }
+.au-body--alt.banner, .au-body--alt.opening, .au-body--alt.interactivedemo { background-color: #EFEFEF; }
+
+.au-body--alt.paneldiscussion { background-color: #521A65; color: #FFFFFF; }
+
+.au-body--alt.paneldiscussion .speakers h2 { margin-bottom: 1em; margin-top: 1em; }
+
+@media (min-width: 992px) { .au-body--alt.paneldiscussion .speakers h2 { margin-top: 0; } }
+
+.au-body--alt.paneldiscussion .speakers p { text-align: center; margin-bottom: 1em; }
+
+.au-body--alt.paneldiscussion .speakers .col-md-3, .au-body--alt.paneldiscussion .speakers .col-md-4 { text-align: center; }
+
+.au-body--alt.paneldiscussion .speakers .col-lg-4 img { max-width: 80%; height: auto; }
+
+.au-body--alt.paneldiscussion a { color: #FFFFFF; }
+
+.idm2021-sidenav p { margin-bottom: 0px; margin-top: 0px; }
+
+.idm2021-sidenav div.au-card { margin-bottom: 1.5em; }
+
+.idm2021.profile img { width: 30%; float: left; margin-right: 1em; }
+
+.idm2021.profile .col-lg-6 { text-align: left; }
+
+.au-body--alt.main { background-color: #FFFFFF; }
 
 .au-callout p { margin-bottom: 16px; margin-bottom: 1rem; }
 

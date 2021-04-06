@@ -31,6 +31,10 @@ body {
 	}	
 }
 
+p.no-margin {
+	margin-bottom: 0;
+}
+
 .health-video__preview {
 	max-width: 760px;
 	position: relative;
@@ -99,6 +103,14 @@ main > .au-body {
 
 }
 
+
+.au-body {
+	h2 {
+		@include AU-space ( margin-top, 0);
+	}
+}
+
+
 main > .banner {
 	@include AU-media( sm ) {
 		@include AU-space( padding, 4unit 0 );
@@ -112,6 +124,11 @@ main > .banner {
 	@include AU-space( margin, 0unit 0unit );
 }
 
+main.idm2021 > {
+	.au-body--alt {
+		@include AU-space( padding, 4unit 0 );
+	}
+}
 
 
 .au-body.au-body--alt.banner.mep1 {
@@ -126,10 +143,74 @@ main > .banner {
 
 }
 
-.au-body.au-body.au-body--alt.banner.idm-2021 {
+.au-body--alt.banner,
+.au-body--alt.opening,
+.au-body--alt.interactivedemo {
 	background-color: #EFEFEF;
 }
 
+.au-body--alt.paneldiscussion {
+	background-color: #521A65;
+	color: #FFFFFF;
+
+	.speakers h2 {
+		margin-bottom: 1em;
+		margin-top: 1em;
+
+		@include AU-media( md ) {
+			margin-top: 0;
+		}
+	}
+
+	.speakers p {
+		text-align: center;
+		margin-bottom: 1em;
+	 }
+
+
+	 .speakers {
+		.col-md-3, .col-md-4 {
+			text-align: center;
+		}
+		
+		.col-lg-4 img {
+			max-width: 80%;
+			height: auto;
+		}
+	 }
+
+	 a {
+		 color: #FFFFFF;
+	 }
+}
+
+.idm2021-sidenav {
+	p {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	div.au-card {
+		margin-bottom: 1.5em;
+	}
+
+}
+
+.idm2021.profile {
+	img {
+		width: 30%;
+		float: left;
+		margin-right: 1em;
+	}
+	
+	.col-lg-6 {
+		text-align: left;
+	}
+}
+
+.au-body--alt.main {
+	background-color: #FFFFFF;
+}
 
 .au-callout {
 	p {
