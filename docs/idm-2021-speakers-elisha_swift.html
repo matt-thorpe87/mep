@@ -70,7 +70,7 @@
 	</script>
 	<script src="https://kit.fontawesome.com/6c1f05a51d.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
-
+	<script src="js/picturefill.js" async></script>
 
 	<link rel="icon" href="assets/favicons/favicon.ico">
 	<link type="text/css" rel="stylesheet" href="css/main.css?id=202104060734">
@@ -105,7 +105,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
-                    <img src="assets/idm2021/idm-banner-min.png" class="au-responsive-media-img">
+					<picture>
+						<source srcset="assets/idm2021/idm-banner-min.jpg" media="(min-width: 768px)">
+						<source srcset="assets/idm2021/idm-banner-min-sm.jpg" media="(min-width: 576px)">
+						<img srcset="assets/idm2021/idm-banner-min-xs.jpg" alt="" class="au-responsive-media-img">
+					</picture>	
 				</div>
 			</div>
 		</div>
@@ -193,15 +197,26 @@
 						</nav>                        
 
                         <div class="row">
-                            <div class="col-lg-12">
-                                <img src="assets/idm2021/elisha_swift.png" class="au-responsive-media-img" alt="Sheena Byrom" />
-                                <h3>Elisha Swift</h3>
-                                <p>
-                                    Midwife, Medical Advisor - Women's Health Medical Department <br />
-                                    Sydney Medical Unit, Operational Centre Paris (OCP)<br />
-                                    Medecins Sans Frontiers (MSF)
-                                </p>
+
+							<div class="col-xs-12">
+								<div class="profile">
+
+									<div class="profile-photo">
+                                		<img src="assets/idm2021/elisha_swift.png" class="au-responsive-media-img" alt="Elisha Swift" />
+									</div>
+
+									<div class="profile-intro">
+										<h3>Elisha Swift</h3>
+										<p>
+											Midwife, Medical Advisor - Women's Health Medical Department <br />
+											Sydney Medical Unit, Operational Centre Paris (OCP)<br />
+											Medecins Sans Frontiers (MSF)
+										</p>
+									</div>
+								</div>
                             </div>
+
+							
                             <div class="col-xs-12">       
                                 <p> Elisha started working for Medecins Sans Frontiers (MSF) in 2016. Her first overseas assignment was in Sierra Leone. Since then, she has completed various MSF projects in Iraq, Tanzania, and South Sudan. MSF is an international, independent, medical aid organisation that delivers medical assistance in places that have been affected by armed conflicts, epidemics, and natural disasters, and where local medical infrastructure has been decimated. 
                                 </p>

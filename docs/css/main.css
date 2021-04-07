@@ -1751,6 +1751,13 @@ main.idm2021 > .au-body--alt { padding: 64px 0; padding: 4rem 0; }
 
 .idm2021.profile .col-lg-6 { text-align: left; }
 
+.idm2021.profile .profile .profile-photo { width: 100%; text-align: center; }
+
+.idm2021.profile .profile .profile-photo img { float: none; width: 50%; margin: 0px auto; }
+
+@media (min-width: 992px) { .idm2021.profile .profile .profile-photo { width: auto; text-align: left; }
+  .idm2021.profile .profile .profile-photo img { float: left; width: 30%; margin-right: 1em; } }
+
 .au-body--alt.main { background-color: #FFFFFF; }
 
 .au-callout p { margin-bottom: 16px; margin-bottom: 1rem; }
