@@ -49,7 +49,9 @@ The starter pack uses npm (node package manager) to set up a local development e
 
 1. In the command line go into this folder and run `npm install`. This will install dependencies necessary for the local development environment.
 
-1. You should now be ready to start your local server by running `npm run watch`. This will watch for changes on `*.scss` files, create new `*.css` files and refresh the browser.
+1. You should now be ready to start your local server by running `npm run watch`. This will watch for changes on `*.scss` files, create new `*.css` files and refresh the browser. 
+
+1. Or you can try running `npm run serve` instead.
 
 
 ### Using Docker
