@@ -1872,6 +1872,8 @@ form { margin-top: 32px; margin-top: 2rem; }
 
 #content span.intro { color: #00D1B2; }
 
-#content span.host { color: #0C8927; }
+#content span.host { color: #C70085; }
+
+#content span.guest { color: #681163; }
 
 /*# sourceMappingURL=main.css.map */
