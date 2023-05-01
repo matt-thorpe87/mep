@@ -103,6 +103,10 @@ The `docs` folder in the contains all the files required to publish a website. T
 
 > **NOTE:** If you're developing on Windows, please ensure that [your local `npm` configuration is using a shell that supports UNIX like folder pathing](https://stackoverflow.com/questions/23243353/how-to-set-shell-for-npm-run-scripts-in-windows) ( i.e `a/unix/path`  rather than `a\\windows\\path` ).
 
+- Node sass. To install node sass:
+`npm install -g node-sass`
+
+
 **[⬆ back to top](#contents)**
 
 
